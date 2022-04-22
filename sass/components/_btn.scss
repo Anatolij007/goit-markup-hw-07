@@ -1,0 +1,118 @@
+.hero__button {
+    display: inline-block;
+    text-align: center;
+    border: 1px transparent;
+    cursor: pointer;
+
+    background-color: var(--blue-text);
+    color: var(--wgt-text);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 136px;
+
+    transition: background-color var(--anim-spb);
+}
+
+.modal__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    background-color: var(--wght-fon);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hero__button:hover,
+.hero__button:focus,
+.check__button:hover,
+.check__button:focus,
+.footer__btn:hover,
+.footer__btn:focus {
+    color: var(--wgt-text);
+    background-color: #188ce8;
+
+}
+
+.check__button {
+    display: block;
+    text-align: center;
+    border: 1px transparent;
+    cursor: pointer;
+
+    background-color: var(--blue-text);
+    color: var(--wgt-text);
+    box-shadow: var(--box-shd);
+
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 10px 55px 10px 56px;
+    min-width: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color var(--anim-spb);
+}
+
+.footer__btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: left;
+    padding-right: 28px;
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--wght-fon);
+    background-color: var(--blue-text);
+    box-shadow: var(--box-shd);
+    transition: background-color var(--anim-spb);
+}
+
+.foundation__btn {
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: 1px transparent;
+    cursor: pointer;
+    background-color: #F5F4FA;
+
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    transition: background-color var(--anim-spb);
+}
+
+.foundation__btn:hover,
+.foundation__btn:focus {
+    background-color: var(--blue-text);
+    color: var(--wgt-text);
+
+
+}

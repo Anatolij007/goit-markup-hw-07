@@ -1,0 +1,18 @@
+:root {
+    /*основаные шрифты*/
+    --main-font: Roboto, sans-serif;
+    --secondary-fond: Raleway, sans-serif;
+    /*цвет текста*/
+    --wgt-text: #ffffff;
+    --black-text: #000000;
+    --grey-text: #757575;
+    --blue-text: #2196f3;
+    --main-text: #212121;
+    /*цвет фона*/
+    --wght-fon: #ffffff;
+    --black-fon: #2f303a;
+    --grey-fon: #f5f4fa;
+    /*эффекты*/
+    --anim-spb: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --box-shd : 0px 4px 4px rgb(0 0 0 / 15%);
+}

@@ -1,0 +1,21 @@
+@import "./reset";
+
+body {
+    background-color: var(--wght-fon);
+    color: var(--main-text);
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

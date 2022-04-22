@@ -1,0 +1,56 @@
+/* Наши занятия */
+.section-ours {
+    padding-top: 0px;
+}
+
+.headline,
+.team__dream {
+    margin-bottom: 50px;
+
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.homework .homework__list+.homework__list {
+    margin-left: 30px;
+}
+
+.homework,
+.team__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homework__list {
+    display: block;
+}
+
+.homework__thumb {
+    position: relative;
+}
+
+.homework__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--wgt-text);
+}
