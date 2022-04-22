@@ -14,26 +14,21 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+
+    &__text {
+        width: 696px;
+        margin-bottom: 30px;
+        font-family: var(--main-font);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--wgt-text);
+    }
 }
 
-.hero__text {
-    width: 696px;
-    margin-bottom: 30px;
-    font-family: var(--main-font);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--wgt-text);
-}
-
-
-.footer__input:focus {
-    outline: transparent;
-    background: transparent;
-}

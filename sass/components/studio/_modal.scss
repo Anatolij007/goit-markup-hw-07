@@ -38,14 +38,15 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
+
+    &__close {
+        transform: fill var(--anim-spb);
+    }
+    
+    &__close:hover,
+    &__close:focus {
+        fill: var(--blue-text);
+    }
 }
 
 
-.modal__close {
-    transform: fill var(--anim-spb);
-}
-
-.modal__close:hover,
-.modal__close:focus {
-    fill: var(--blue-text);
-}

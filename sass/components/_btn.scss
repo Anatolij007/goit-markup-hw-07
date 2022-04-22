@@ -16,6 +16,13 @@
     min-width: 136px;
 
     transition: background-color var(--anim-spb);
+
+    &:hover,
+    &:focus, {
+        color: var(--wgt-text);
+        background-color: #188ce8;
+
+    }
 }
 
 .modal__btn {
@@ -31,17 +38,6 @@
     cursor: pointer;
     background-color: var(--wght-fon);
     border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.hero__button:hover,
-.hero__button:focus,
-.check__button:hover,
-.check__button:focus,
-.footer__btn:hover,
-.footer__btn:focus {
-    color: var(--wgt-text);
-    background-color: #188ce8;
-
 }
 
 .check__button {
@@ -65,6 +61,12 @@
     margin-left: auto;
     margin-right: auto;
     transition: background-color var(--anim-spb);
+
+    &:hover,
+    &:focus {
+        color: var(--wgt-text);
+        background-color: #188ce8;
+    }
 }
 
 .footer__btn {
@@ -90,6 +92,14 @@
     background-color: var(--blue-text);
     box-shadow: var(--box-shd);
     transition: background-color var(--anim-spb);
+
+    &:hover,
+    &:focus {
+        color: var(--wgt-text);
+        background-color: #188ce8;
+    }
+
+    
 }
 
 .foundation__btn {
@@ -107,12 +117,10 @@
     letter-spacing: 0.03em;
 
     transition: background-color var(--anim-spb);
-}
 
-.foundation__btn:hover,
-.foundation__btn:focus {
-    background-color: var(--blue-text);
-    color: var(--wgt-text);
-
-
+    &:hover,
+    &:focus {
+        background-color: var(--blue-text);
+        color: var(--wgt-text);
+    }
 }

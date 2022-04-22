@@ -2,37 +2,33 @@
 
 .team {
     background-color: var(--grey-fon);
-}
 
-.team__list .team__item+.team__item {
-    margin-left: 30px;
-}
-
-.team__item {
-    background-color: var(--wght-fon);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.card__name {
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.card__text {
-    text-align: center;
-    color: var(--grey-text);
-    font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    &__list &__item+&__item {
+        margin-left: 30px;
+    }
+    
+    &__dream {
+        margin-bottom: 50px;
+    
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    &__item {
+        background-color: var(--wght-fon);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 }
 
 .social {
@@ -40,41 +36,63 @@
     justify-content: center;
     margin-top: 16px;
 
+    &__item {
+        border-radius: 50%;
+    }
+    
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    &__link {
+        fill: #AFB1B8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+    
+        transition: fill var(--anim-spb);
+    
+    }
+    
+    &__item:hover,
+    &__item:focus {
+        background-color: #188ce8;
+    
+    
+    }
+    
+    &__item:hover &__link,
+    &__item:focus &__link {
+        fill: #ffffff;
+    
+    }
+
 }
 
 .card {
     padding: 30px;
+
+    &__name {
+        font-family: var(--main-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    &__text {
+        text-align: center;
+        color: var(--grey-text);
+        font-family: var(--main-font);
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+    }
 }
 
-.social__item {
-    border-radius: 50%;
-}
-
-.social__item:not(:last-child) {
-    margin-right: 10px;
-}
-
-.social__link {
-    fill: #AFB1B8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-
-    transition: fill var(--anim-spb);
-
-}
-
-.social__item:hover,
-.social__item:focus {
-    background-color: #188ce8;
-
-
-}
-
-.social__item:hover .social__link,
-.social__item:focus .social__link {
-    fill: #ffffff;
-
-}
